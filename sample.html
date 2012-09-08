@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Turanslit Demo</title>
+    <style type="text/css">
+
+        h1 {
+            color: #FF1585;
+            font-family: "Maiandra GD", sans-serif;
+        }
+
+        body {
+            background: #000;
+            text-align: center;
+            width: 800px;
+            margin: 20px auto;
+        }
+
+        #t-textarea {
+            border: 2px solid #DCDCDC;
+            width: 700px;
+            height: 400px;
+            padding: 10px;
+            font: 18px Arial, Helvetica, sans-serif;
+        }
+
+        #mappings {
+            width: 400px;
+            margin: 20px auto;
+            color: #777;
+            font: 18px Arial, Helvetica, sans-serif;
+        }
+
+        #mappings:hover {
+            color: #FFF;
+        }
+
+        .link {
+            color: #08E;
+            font: 13px Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+    </style>
+    <script type="text/javascript" src="turanslit.js"></script>
+    <script type="text/javascript">
+        function init() {
+            var textareaEl = document.getElementById('t-textarea');
+            Turanslit.init(textareaEl);
+        }
+    </script>
+</head>
+<body onload="init()">
+
+    <h1>Turanslit</h1>
+
+    <textarea id="t-textarea"></textarea>
+
+    <div id="mappings">
+        <p>ə Ə - (aa, Aa, ee, Ee) </p>
+        <p>ü Ü - (uu, Uu) </p>
+        <p>ö Ö - (oo, Oo) </p>
+        <p>ı İ - (ii, Ii) </p>
+        <p>ş Ş - (sh, Sh) </p>
+        <p>ç Ç - (ch, Ch) </p>
+        <p>ğ Ğ - (gh, Gh) </p>
+    </div>
+
+    <p>
+        <a class="link" href="https://github.com/rustamli/turanslit.js" target="_blank">[ source code on github ]</a>
+    </p>
+    <p>
+        <a class="link" href="https://twitter.com/nehfy" target="_blank">[ @nehfy ]</a>
+    </p>
+</body>
+</html>
