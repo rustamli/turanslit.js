@@ -20,3 +20,9 @@ Lightweight Azeri and Turkish transliteration script for textareas and inputs
 * *ş Ş* - (sh, Sh) 
 * *ç Ç* - (ch, Ch) 
 * *ğ Ğ* - (gh, Gh) 
+
+## License
+
+Released under ISC license (functionally equivalent to the simplified BSD and MIT/Expat licenses). 
+
+See LICENSE.txt for details.
