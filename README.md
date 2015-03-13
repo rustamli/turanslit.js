@@ -21,6 +21,11 @@ Lightweight Azeri and Turkish transliteration script for textareas and inputs
 * *ç Ç* - (ch, Ch) 
 * *ğ Ğ* - (gh, Gh) 
 
+## Demo
+
+See **[live demo here](http://jsfiddle.net/trustamli/nsohg9bq/embedded/result/)**
+([source code](http://jsfiddle.net/trustamli/nsohg9bq))
+
 ## License
 
 Released under ISC license (functionally equivalent to the simplified BSD and MIT/Expat licenses). 
