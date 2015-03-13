@@ -114,7 +114,7 @@ var Turanslit = {
         return keyPressResult;
     },
 
-    utils : {
+    utils: {
 
         getCaretPosition: function (obj) {
             obj.focus();
